@@ -1,0 +1,42 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple/
+Collecting matplotlib
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/16/51/58b0b9de42fe1e665736d9286f88b5f1556a0e22bed8a71f468231761083/matplotlib-3.7.5-cp38-cp38-win_amd64.whl (7.5 MB)
+     ---------------------------------------- 7.5/7.5 MB 1.2 MB/s eta 0:00:00
+Collecting opencv-python
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a4/7d/f1c30a92854540bf789e9cd5dde7ef49bbe63f855b85a2e6b3db8135c591/opencv_python-4.11.0.86-cp37-abi3-win_amd64.whl (39.5 MB)
+     ---------------------------------------- 39.5/39.5 MB 6.2 MB/s eta 0:00:00
+Collecting pyyaml
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/75/8a/ee831ad5fafa4431099aa4e078d4c8efd43cd5e48fbc774641d233b683a9/PyYAML-6.0.2-cp38-cp38-win_amd64.whl (162 kB)
+Collecting requests
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl (64 kB)
+Collecting contourpy>=1.0.1 (from matplotlib)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/96/1b/b05cd42c8d21767a0488b883b38658fb9a45f86c293b7b42521a8113dc5d/contourpy-1.1.1-cp38-cp38-win_amd64.whl (477 kB)
+Collecting cycler>=0.10 (from matplotlib)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Collecting fonttools>=4.22.0 (from matplotlib)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e9/73/e0285a1cd25da20f1403a6dea54c116a6ccae6063f209a39793977dad03a/fonttools-4.56.0-cp38-cp38-win_amd64.whl (1.5 MB)
+     ---------------------------------------- 1.5/1.5 MB 3.1 MB/s eta 0:00:00
+Collecting kiwisolver>=1.0.1 (from matplotlib)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/52/77/7e04cca2ff1dc6ee6b7654cebe233de72b7a3ec5616501b6f3144fb70740/kiwisolver-1.4.7-cp38-cp38-win_amd64.whl (55 kB)
+Requirement already satisfied: numpy<2,>=1.20 in d:\anaconda3\envs\rtdetr\lib\site-packages (from matplotlib) (1.24.4)
+Collecting packaging>=20.0 (from matplotlib)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/88/ef/eb23f262cca3c0c4eb7ab1933c3b1f03d021f2c48f54763065b6f0e321be/packaging-24.2-py3-none-any.whl (65 kB)
+Requirement already satisfied: pillow>=6.2.0 in d:\anaconda3\envs\rtdetr\lib\site-packages (from matplotlib) (10.4.0)
+Collecting pyparsing>=2.3.1 (from matplotlib)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e5/0c/0e3c05b1c87bb6a1c76d281b0f35e78d2d80ac91b5f8f524cebf77f51049/pyparsing-3.1.4-py3-none-any.whl (104 kB)
+Requirement already satisfied: python-dateutil>=2.7 in d:\anaconda3\envs\rtdetr\lib\site-packages (from matplotlib) (2.9.0.post0)
+Collecting importlib-resources>=3.2.0 (from matplotlib)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e1/6a/4604f9ae2fa62ef47b9de2fa5ad599589d28c9fd1d335f32759813dfa91e/importlib_resources-6.4.5-py3-none-any.whl (36 kB)
+Collecting charset-normalizer<4,>=2 (from requests)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/40/bb/20affbbd9ea29c71ea123769dc568a6d42052ff5089c5fe23e21e21084a6/charset_normalizer-3.4.1-cp38-cp38-win_amd64.whl (102 kB)
+Collecting idna<4,>=2.5 (from requests)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl (70 kB)
+Collecting urllib3<3,>=1.21.1 (from requests)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/ce/d9/5f4c13cecde62396b0d3fe530a50ccea91e7dfc1ccf0e09c228841bb5ba8/urllib3-2.2.3-py3-none-any.whl (126 kB)
+Collecting certifi>=2017.4.17 (from requests)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/38/fc/bce832fd4fd99766c04d1ee0eead6b0ec6486fb100ae5e74c1d91292b982/certifi-2025.1.31-py3-none-any.whl (166 kB)
+Collecting zipp>=3.1.0 (from importlib-resources>=3.2.0->matplotlib)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/62/8b/5ba542fa83c90e09eac972fc9baca7a88e7e7ca4b221a89251954019308b/zipp-3.20.2-py3-none-any.whl (9.2 kB)
+Requirement already satisfied: six>=1.5 in d:\anaconda3\envs\rtdetr\lib\site-packages (from python-dateutil>=2.7->matplotlib) (1.17.0)
+Installing collected packages: zipp, urllib3, pyyaml, pyparsing, packaging, opencv-python, kiwisolver, idna, fonttools, cycler, contourpy, charset-normalizer, certifi, requests, importlib-resources, matplotlib
+Successfully installed certifi-2025.1.31 charset-normalizer-3.4.1 contourpy-1.1.1 cycler-0.12.1 fonttools-4.56.0 idna-3.10 importlib-resources-6.4.5 kiwisolver-1.4.7 matplotlib-3.7.5 opencv-python-4.11.0.86 packaging-24.2 pyparsing-3.1.4 pyyaml-6.0.2 requests-2.32.3 urllib3-2.2.3 zipp-3.20.2
